@@ -1,6 +1,6 @@
 
 
-function App() {
+class  App() {
 
   window.navigator.geolocation.getCurrentPosition(
     position => console.log(position),
@@ -11,5 +11,7 @@ function App() {
     <h2>Latutude: </h2>
   );
 }
+
+
 
 export default App;
